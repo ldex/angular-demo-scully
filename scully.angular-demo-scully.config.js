@@ -5,7 +5,7 @@ exports.config = {
   routes: {
     '/products/:id': {
         type: 'json',
-        productId: {
+        id: {
             url: 'http://storerestservice.azurewebsites.net/api/products/',
             property: 'id'
         }
